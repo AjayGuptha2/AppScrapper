@@ -1,0 +1,16 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.git
+.gitignore
+.DS_Store
+*.xlsx
+*.csv
+debug_*.png
+debug_*.html
+.gemini/

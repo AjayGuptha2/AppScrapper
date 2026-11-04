@@ -1,0 +1,11 @@
+services:
+  autoscrape:
+    build: .
+    container_name: autoscrape-app
+    ports:
+      - "8501:8501"
+    shm_size: "1gb" # Crucial: provides shared memory for parallel Playwright Chromium tabs
+    restart: unless-stopped
+    environment:
+      - STREAMLIT_SERVER_PORT=8501
+      - STREAMLIT_SERVER_ADDRESS=0.0.0.0
