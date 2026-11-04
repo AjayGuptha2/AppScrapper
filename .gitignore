@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Scraper output data & spreadsheets (prevents uploading personal/client data)
+*.xlsx
+*.xls
+*.csv
+
+# Playwright artifacts & debug dumps
+.playwright/
+debug_*.png
+debug_*.html
+
+# IDE / Editor folders
+.vscode/
+.idea/
